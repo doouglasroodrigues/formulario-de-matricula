@@ -1,0 +1,167 @@
+main.caixa {
+    
+    h1 {
+        font: var(--Poppins3-small);
+        padding-bottom: 10px;
+    }
+
+    label {
+        font: var(--Poppins3-small) ;
+        font-weight: 400;
+    }
+
+
+
+
+select {
+    padding: 12px;
+    width: 93.5%;
+    border-radius: 5px;
+    margin-block: 5px 24px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    appearance: none;
+}
+
+}
+
+fieldset.informaçao {
+    input {
+        padding: 12px;
+        width: 88%;
+        border-radius: 5px;
+        margin-block: 5px 24px;
+        border: 1px solid rgba(0, 0, 0, 0.199);
+        appearance: none;
+    }   
+}
+
+textarea {
+    padding: 12px;
+    width: 88%;
+    height: 100px;
+    border-radius: 5px;
+    margin-block: 5px 24px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    appearance: none;
+}
+
+select:focus , input:focus , textarea:focus {
+    box-shadow: 0px 0px 1.5px 4px rgba(189, 189, 90, 0.407);
+    outline: 1.5px solid red;
+} 
+
+input.mudar {
+    padding: 12px;
+    width: 88%;
+    border-radius: 5px;
+    margin-block: 5px 24px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    appearance: none;
+}
+
+
+
+div.adress { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 45px;
+
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input.mudançanoinput {
+        
+        padding: 12px;
+        width: 100%;
+        border-radius: 5px;
+        margin-block: 5px 24px;
+        border: 1px solid rgba(0, 0, 0, 0.199);
+        appearance: none;
+    }
+
+    input.mudançanoinput2 {
+        padding: 12px;
+        width: 73%;
+        border-radius: 5px;
+        margin-block: 5px 24px;
+        border: 1px solid rgba(0, 0, 0, 0.199);
+        appearance: none;
+    }
+
+    
+     
+}
+
+fieldset.responsaveis {
+    input {
+        padding: 12px;
+        width: 88%;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.199);
+        appearance: none;
+
+        
+    }
+
+    
+
+    label {
+        margin-block: 5px 24px;
+        
+    }
+
+    input#iparents {
+        margin-block: 5px 3px;
+    }
+
+    input.marginblock1 {
+        margin-block: 5px 15px;        ;
+ }   
+
+    input.marginblock2 {
+    margin-block: 5px 0px;  ;
+
+    &[disabled] {
+        background-color: var(--surface-disabled);
+        
+        border: 1px solid var(--stroke-default);
+
+        color: var(--text-primary);
+    }
+
+    &:invalid {
+        border: 0.125rem solid var(--semantic-error);
+   
+    }
+
+    &:valid + .errer {
+        display: none;
+    }
+}   
+
+
+    div.errer {
+        margin-block: 3px 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    span.invalido {
+        font-size: 15px;
+        color: red;
+    }
+
+    img.imagem-alerta {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+

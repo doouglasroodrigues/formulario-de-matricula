@@ -1,0 +1,90 @@
+@import url(droparea.css);
+
+input[type="date"] {
+    position: relative;
+    &::-webkit-calendar-picker-indicator {
+        opacity: 0;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-image: url(../icons/calendar-03.png);
+        background-position: center center;
+        background-size: contain;
+        
+        right: 1rem;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}
+
+
+
+select {
+    background-image: url(../icons/arrow-down-01.png);
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+fieldset.turno > h1 {
+    padding-top: 45px;
+
+}
+
+
+
+div.selecione {
+    display: grid;
+    grid-template-columns: repeat(2, 46%);
+    gap: 10px;
+    padding-block: 10px;
+    
+    
+    
+
+    div {
+        
+        padding: 10px;
+        align-items: flex-start;     
+        border: 1px solid rgba(0, 0, 0, 0.284);
+        border-radius: 10px;
+    }
+
+    div:hover {
+        box-shadow: 0px 0px 1.5px 4px rgba(189, 189, 90, 0.407);
+        border: 1.5px solid red;
+    }
+
+    
+
+    label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    input {
+        margin: 5px;
+        width: 17px;
+        height: 17px;
+        box-shadow: none;
+        outline: none;
+        
+        
+    }
+
+    img { 
+        width: 40px;
+        padding-block: 7px;
+    }
+
+}
+
+

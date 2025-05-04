@@ -1,0 +1,50 @@
+div.esportes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 11px;
+    padding-block: 10px;
+    
+
+
+    div {
+        width: 101px;
+        height: 110px;
+        border: 1px solid rgba(0, 0, 0, 0.286);
+        border-radius: 10px;
+
+        
+    }
+    
+    div:hover {
+        box-shadow: 0px 0px 1.5px 4px rgba(189, 189, 90, 0.407);
+        border: 1.5px solid red;
+    }
+
+    label {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    input {
+        margin: 5px;
+        width: 15px;
+        height: 15px;
+        box-shadow: none;
+        outline: none;
+        border-radius: 50%;
+        
+        
+    }
+
+
+    img { 
+        width: 40px;
+        padding-block: 7px;
+    }
+}

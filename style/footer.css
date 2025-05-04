@@ -1,0 +1,64 @@
+div.footer {
+
+    div {
+        margin-block: 30px 50px;
+
+    }
+
+    div.checkbox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: justify;
+        gap: 10px;
+
+        input {
+        margin-top: px;
+        outline: none;
+        box-shadow: none;
+        width: 30px;
+        height: 20px;
+        }
+
+        a {
+            color: #e43a12;
+            text-decoration: none;
+        }
+    }
+
+    div.cadastro {
+        text-align: right;
+
+        input {
+            padding: 10px 18px;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+        input:nth-child(1) {
+            background-color: white;
+            color: #e43a12;
+            border: 1.5px solid #e43a12;
+            font-weight: 500;
+        }
+
+        input:nth-child(2) {
+            background-color: #e43a12;
+            color: white;
+            border: 2px solid #e43a12;
+        }
+
+        input:nth-child(1):hover {
+            background-color: red;
+            color: white;
+        }
+
+        input:nth-child(2):hover {
+            background-color: white;
+            color: red;
+        }
+
+    }
+
+}
+
