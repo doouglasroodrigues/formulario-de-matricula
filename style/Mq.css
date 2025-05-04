@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+header.inicial {
+    padding: 0px;
+}
+main.caixa {
+    padding-inline: 0px;
+}
+fieldset.informaçao {
+    padding-inline: 0px;
+}
+
+body {
+    margin-inline: 40px;
+    
+}
+
+header.inicial {
+    padding-top: 64px ;
+    padding-bottom: 48px;
+    max-width: 94%;
+    text-align: justify;
+}
+
+.footer {
+    p , a {
+        font-size: 14px;
+    }
+
+    div.cadastro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 12px;
+        
+
+        input {
+            flex: auto;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+}
