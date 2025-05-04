@@ -26,6 +26,7 @@ select {
 
 fieldset.informaçao {
     input {
+        text-align: left;
         padding: 12px;
         width: 88%;
         border-radius: 5px;
