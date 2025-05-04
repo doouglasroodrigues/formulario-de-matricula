@@ -3,6 +3,7 @@ div.esportes {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 11px;
+    
     padding-block: 10px;
     
 
@@ -12,6 +13,7 @@ div.esportes {
         height: 110px;
         border: 1px solid rgba(0, 0, 0, 0.286);
         border-radius: 10px;
+        
 
         
     }

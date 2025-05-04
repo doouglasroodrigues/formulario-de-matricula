@@ -41,3 +41,15 @@ header.inicial {
         }
     }
 }
+
+div.esportes {
+    padding-inline: 0px 5.5%;
+    div {
+        flex: auto;
+        padding-inline: 10px 10px;
+    }
+
+    label {
+        width: auto;
+    }
+}
